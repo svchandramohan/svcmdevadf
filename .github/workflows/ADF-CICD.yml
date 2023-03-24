@@ -1,14 +1,8 @@
-# This is a basic workflow to help you deploy an ADF ARM template to a higher environment
-
-# For more information on GitHub Actions for Azure: https://github.com/Azure/Actions
-# For more samples to get started with GitHub Action workflows to deploy to Azure: https://github.com/Azure/actions-workflow-samples
-
 on:
   push:
     branches:
       - adf_publish
   workflow_dispatch:
-
 
 jobs:
   build:
